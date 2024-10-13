@@ -15,7 +15,7 @@ class dbConfig {
             $this->name,
             $this->password);
        } catch(PDOException $e){ 
-        echo $e->getMessage();
+        echo "lỗi kết nối " + $e->getMessage();
     
              
     }
